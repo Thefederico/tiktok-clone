@@ -3,7 +3,7 @@
   height: 100%;
 }
 .wrapper {
-  
+
 }
 .player {
   width: 62px;
@@ -17,4 +17,7 @@
   border: 0;
   inset: 0;
   margin: auto;
+}
+.hidden {
+  opacity: 0;
 }

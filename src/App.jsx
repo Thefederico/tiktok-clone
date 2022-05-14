@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import VideoPLayer from "./components/VideoPlayer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -7,8 +8,7 @@ function App() {
   return (
     <div className="App">
       <main>
-        <h1 className="title">Hola mundo</h1>
-        <p className="title">dcfmdcmdclmdcdl</p>
+      <VideoPLayer />  
       </main>
     </div>
   );

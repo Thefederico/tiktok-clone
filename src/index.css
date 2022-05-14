@@ -24,3 +24,10 @@ body {
   margin: 0;
   font-family: "Proxima Nova", "Arial", Tahoma, PingFangSC, "sans-serif";
 }
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}

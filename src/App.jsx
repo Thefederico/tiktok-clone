@@ -1,17 +1,17 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
-      <h1 class="text-3xl font-bold underline">
-    Hello world
-  </h1>
+      <main>
+        <h1 className="title">Hola mundo</h1>
+        <p className="title">dcfmdcmdclmdcdl</p>
+      </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
